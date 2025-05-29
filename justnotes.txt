@@ -1,0 +1,31 @@
+Estudando typescript
+
+
+Typescript é um runtime type checking
+
+Para definir o tipo pode ser usado Type ou Interface
+
+Previne erros como por exemplo, uma função que precisa de um parametro, porém quando uma função sem parametro é chaamda o typescript indica erro
+
+
+interface usa primeira letra maiuscula, é como se fosse uma classe
+
+
+interface User{
+birthYear: number
+}
+
+para indicar o tipo, voce pode declarar a função assim, colocando o parametro com dois pontos
+
+function calculateAgeOfUser(user:User){
+  return new Date().getFullYear() - user.birthYear
+}
+
+Para chamar de forma correta então segue dessa forma:
+
+calculateAgeofUser({birthYear: 1994})
+
+Node diferente do dino e bun, não renderiza typescript
+
+No node é preciso instalar o arquivo de dependência Typescript
+
