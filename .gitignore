@@ -27,3 +27,7 @@ coverage/
 
 # Database
 db/app.db
+
+# ENV
+
+.env
