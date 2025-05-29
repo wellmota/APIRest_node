@@ -26,4 +26,4 @@ coverage/
 *.tgz 
 
 # Database
-tmp/app.db
+db/app.db
