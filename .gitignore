@@ -24,3 +24,6 @@ coverage/
 
 # Misc
 *.tgz 
+
+# Database
+tmp/app.db
